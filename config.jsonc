@@ -1,3 +1,5 @@
+// Fork for Sway (not yet tested)
+
 {
     // General Waybar configuration
     "layer": "top",
@@ -9,7 +11,7 @@
     // Modules configuration
     "modules-left": [
         "custom/launcher",
-        "hyprland/window",
+        "sway/window",
         "custom/texttwo",
         "custom/textthree",
         "custom/textfour",
@@ -31,7 +33,7 @@
         "interval": 60,
         "tooltip": false
     },
-    "hyprland/window": {
+    "sway/window": {
         "format": "{class}",
         "max-length": 20,
         "rewrite": {
